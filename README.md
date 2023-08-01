@@ -19,12 +19,11 @@ The data set include the following attributes:
 Below is a screen of the Data set 
 ![](screenshort.jpg)
 
-
--	Data Preprocessing/ Cleaning 
+#### Data Preprocessing/Cleaning 
 The dataset has undergone some basic preprocessing, including:
-Handling missing values by imputing or removing them based on the context.
-Removing duplicates and converting data types 
-Encoding categorical variables to numerical representations for analysis purposes.
+- Handling missing values by imputing or removing them based on the context.
+- Removing duplicates and converting data types 
+- Encoding categorical variables to numerical representations for analysis purposes.
 
 Below is the screen short of the Dataset after it has been properly cleaned 
 ![](screenshort.jpg)
