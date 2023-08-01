@@ -2,10 +2,11 @@
 
 ## Overview
 This repository contains a comprehensive dataset of medical students enrolled in XYZ University during a specific academic year. The data was collected with the objective of studying various characteristics and trends among medical students. It encompasses a rich combination of numerical and categorical variables, providing valuable insights into the diverse student population.
-### Data Set
+
+## Data Set
 The dataset consists of a single data file in a comma-separated values (CSV) format. Each row represents a unique medical student, and the columns contain different attributes of the students.
 
-#### Attributes
+### Attributes
  
 The data set include the following attributes:
 -	Student ID: A unique identifier for each student.
@@ -16,31 +17,29 @@ The data set include the following attributes:
 -	Diabetic: Indicates whether the student has diabetes (Yes/No).
 -	Health Conditions: Any other relevant health conditions or medical history of the student.
 
-Below is a screen of the Data set 
-![](screenshort.jpg)
+Below is a screen short of the Data set used
+![](uncleanData.jpg)
 
-#### Data Preprocessing/Cleaning 
+### Data Preprocessing/Cleaning 
 The dataset has undergone some basic preprocessing, including:
 - Handling missing values by imputing or removing them based on the context.
 - Removing duplicates and converting data types 
 - Encoding categorical variables to numerical representations for analysis purposes.
 
 Below is the screen short of the Dataset after it has been properly cleaned 
-![](screenshort.jpg)
+![](CleanedData.jpg)
 
-###Objective 
+## Objective 
 The purpose is to study and analyze the relationship between different attributes and identify any patterns or trends related to health conditions among medical students based on the data set.
 
-Analysis Considerations
-To gain insights from the dataset, the following analyses was performed:
+## Analysis of the Data 
+I gained insights from the data set by performing the following analyses:
 
-	Health Conditions Analysis: Identifying the most common health conditions among medical students. Understanding the distribution of students based on (Age, BMI, Temperature, Heart Rate, Blood Pressure, and Cholesterol for both male and female
-	This task was carried by using pivot table to Number of Students who have diabetes and those who don’t. In the Pivot table, Student id was dragged to the value field of the pivot table field while the diabetes column was dragged to the row field 
-
+- Health Conditions Analysis: Identifying the most common health conditions among medical students. Understanding the distribution of students based on Age, BMI, Temperature, Heart Rate, Blood Pressure, and Cholesterol for both male and female students.
 
 This task involved utilizing a pivot table to calculate the average values of Age, BMI, Temperature, Heart Rate, Blood Pressure, and Cholesterol for both males and females. To achieve this, the Age, BMI, Temperature, Heart Rate, Blood Pressure, and Cholesterol columns were all placed in the "Values" section of the pivot table, while the "Gender" column was placed in the "Rows" section of the pivot table field. By doing so, the pivot table automatically aggregated the data, providing the average values for each of the mentioned variables separately for males and females.
 
-![](screenshort.jpg)
+![](Averageage.jpg)
 
 Height and Weight Analysis:  Identifying Average Height and Weight for both Genders of the medical students (in 2 decimal places)
 This task involved using a pivot table to calculate the average values for height and weight separately for male and female individuals. To accomplish this, the "height" and "weight" columns were placed in the "Values" section of the pivot table, and the "gender" column was placed in the "Rows" section of the pivot table field. By doing so, the pivot table automatically aggregated the data, providing the average height and weight values for both male and female individuals in the dataset. This analysis helps understand the average height and weight characteristics among males and females separately, which can be valuable for various research and health-related studies.	
