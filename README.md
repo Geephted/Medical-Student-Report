@@ -86,5 +86,9 @@ Using pivot charts helps to present the insights from the pivot tables in a visu
 
 ![](Dashboard.jpg)
 
+## Tool Used
+
+Microsoft Excel: Used for data manipulation, analysis, and visualization.
+
 ## Conclusion 
 In conclusion, this repository serves as a valuable asset to advance knowledge in the field of medical education, contributing to a better understanding of medical student characteristics and health-related aspects. By leveraging this analysis, stakeholders can work collaboratively to drive positive changes, support student success, and ultimately improve the quality of medical education and student experiences.
