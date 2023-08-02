@@ -1,4 +1,4 @@
-# Analysis of Medical-Student Data Using Excel
+# Medical Student Data Analysis with Excel
 
 ## Overview
 This repository contains a comprehensive dataset of medical students enrolled in a University during a specific academic year. The data was collected with the objective of studying various characteristics and trends among medical students. It encompasses a rich combination of numerical and categorical variables, providing valuable insights into the diverse student population.
@@ -97,7 +97,8 @@ Using pivot charts helps to present the insights from the pivot tables in a visu
 
 ![](Diabetesch.jpg)
 
-## Dashboard
+## Medical Student Data Analysis Dashboard
+This dashboard is designed to visually represent the key insights and analysis from the medical student dataset. It provides a concise and interactive way to present the most important findings in an easy-to-understand format. The top middle section of the dashboard displays essential summary metrics, including the total number of students, the average age, average height and average weight
 
 ![](Dashboard.jpg)
 
