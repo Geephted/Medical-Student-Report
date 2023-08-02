@@ -13,6 +13,7 @@ The data set include the following attributes:
 -	Age: The age of the student in years.
 -	Gender: The gender of the student (Male or Female).
 -	Blood Group: The ABO blood group of the student (A, B, AB, O).
+-	Smoker: Indicates whether the student smokes or not (Yes/No).
 -	Diabetic: Indicates whether the student has diabetes (Yes/No).
 -	Health Conditions: Any other relevant health conditions or medical history of the student.
 
@@ -76,12 +77,13 @@ This analysis allows us to understand the number of students who have diabetes a
 
 ## Visualization of the insights gotten from the Pivot Tables created 
 After carefully analyzing the data from the pivot tables, I created several pivot charts to visualize the information obtained. Below are the pivot charts used for each of the pivot tables:
-#### Average Height and Weight for Both Genders: Clustered Column Pivot Chart
+
+#### Average Height and Weight for Both Genders: Clustered Column Chart
 This chart provides a visual comparison of the average height and weight for both genders. The x-axis represents the genders (Male and Female), and the y-axis represents the average height and weight values. The chart displays clustered columns for each gender, making it easy to compare the average height and weight side by side.
 
-![](AvgHeightch.jpg)
+![](avgheightch.jpg)
 
-#### Number of Students across Different Blood Groups: Clustered Column Pivot Chart
+#### Number of Students across Different Blood Groups: Clustered Column Chart
 This chart presents the distribution of students across different blood groups. The x-axis represents the blood groups (e.g., A, B, AB, O), and the y-axis represents the number of students. The chart displays clustered columns for each blood group, allowing for a quick comparison of the number of students in each group.
 
 ![](Bloodgroupsch.jpg) 
@@ -104,7 +106,13 @@ This dashboard is designed to visually represent the key insights and analysis f
 
 ## Tool Used
 
-Microsoft Excel: Used for data manipulation, analysis, and visualization.
+This analysis and dashboard was done using Microsoft Excel, a powerful spreadsheet tool widely used for data analysis and visualization. Excel offers a range of features and functionalities that enable me to manipulate, analyze, and present data effectively. Some of the Excel tools and functions i used in analysing this data include:
+
+- PivotTables
+- Charts and Graphs 
+- Data Filtering and Sorting
+- Formulas and Functions
+- Data Visualization Techniques
 
 ## Conclusion 
 In conclusion, this repository serves as a valuable asset to advance knowledge in the field of medical education, contributing to a better understanding of medical student characteristics and health-related aspects. By leveraging this analysis, stakeholders can work collaboratively to drive positive changes, support student success, and ultimately improve the quality of medical education and student experiences.
