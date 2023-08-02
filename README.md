@@ -115,4 +115,4 @@ This analysis and dashboard was done using Microsoft Excel, a powerful spreadshe
 - Data Visualization Techniques
 
 ## Conclusion 
-In conclusion, this repository serves as a valuable asset to advance knowledge in the field of medical education, contributing to a better understanding of medical student characteristics and health-related aspects. By leveraging this analysis, stakeholders can work collaboratively to drive positive changes, support student success, and ultimately improve the quality of medical education and student experiences.
+This repository serves as a valuable asset to advance knowledge in the field of medical education, contributing to a better understanding of medical student characteristics and health-related aspects. By leveraging this analysis, stakeholders can work collaboratively to drive positive changes, support student success, and ultimately improve the quality of medical education and student experiences.
