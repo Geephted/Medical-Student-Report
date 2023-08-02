@@ -66,7 +66,7 @@ Below is the the resulting pivot table:
 
 This analysis allows us to understand the number of students who smoke and those who do not, providing insights into the prevalence of smoking among the student population.
 
-Diabetes Analysis: Investigating the prevalence of diabetes among medical students.
+- Diabetes Analysis: Investigating the prevalence of diabetes among medical students.
 
 This task involved using a pivot table to find the number of students who have diabetes and those who don't. The "Student ID" column was placed in the "Values" section of the pivot table, and the "Diabetes" column (which likely contains categorical values like "Yes" and "No" to indicate diabetes status) was placed in the "Rows" section of the pivot table field. By doing so, the pivot table automatically aggregated the data, providing the count of students for each diabetes status separately.
 
