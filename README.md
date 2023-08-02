@@ -1,7 +1,7 @@
-# Medical-Student-Report
+# Analysis of Medical-Student Data Using Excel
 
 ## Overview
-This repository contains a comprehensive dataset of medical students enrolled in XYZ University during a specific academic year. The data was collected with the objective of studying various characteristics and trends among medical students. It encompasses a rich combination of numerical and categorical variables, providing valuable insights into the diverse student population.
+This repository contains a comprehensive dataset of medical students enrolled in a University during a specific academic year. The data was collected with the objective of studying various characteristics and trends among medical students. It encompasses a rich combination of numerical and categorical variables, providing valuable insights into the diverse student population.
 
 ## Data Set
 The dataset consists of a single data file in a comma-separated values (CSV) format. Each row represents a unique medical student, and the columns contain different attributes of the students.
@@ -10,7 +10,6 @@ The dataset consists of a single data file in a comma-separated values (CSV) for
  
 The data set include the following attributes:
 -	Student ID: A unique identifier for each student.
--	Name: The name of the student.
 -	Age: The age of the student in years.
 -	Gender: The gender of the student (Male or Female).
 -	Blood Group: The ABO blood group of the student (A, B, AB, O).
@@ -43,6 +42,7 @@ Below is the the resulting pivot table:
 ![](Averageage.jpg)
 
 - Height and Weight Analysis:  Identifying Average Height and Weight for both Genders of the medical students (in 2 decimal places)
+
 This task involved using a pivot table to calculate the average values for height and weight separately for male and female individuals. To accomplish this, the "height" and "weight" columns were placed in the "Values" section of the pivot table, and the "gender" column was placed in the "Rows" section of the pivot table field. By doing so, the pivot table automatically aggregated the data, providing the average height and weight values for both male and female individuals in the dataset. This analysis helps understand the average height and weight characteristics among males and females separately, which can be valuable for various research and health-related studies.	
 
 Below is the the resulting pivot table:
@@ -56,6 +56,7 @@ Below is the the resulting pivot table:
 ![](Bloodgroups.jpg) 
 
 - Smoking Analysis: Identifying smoking habits among medical students. 
+
 This task involved using a pivot table to find the number of students who smoke and those who don't. The "Student ID" column was placed in the "Values" section of the pivot table, and the "Smoking" column (which likely contains categorical values like "Yes" and "No" to indicate smoking status) was placed in the "Rows" section of the pivot table field. By doing so, the pivot table automatically aggregated the data, providing the count of students for each smoking status separately.
 
 Below is the the resulting pivot table:
@@ -65,6 +66,7 @@ Below is the the resulting pivot table:
 This analysis allows us to understand the number of students who smoke and those who do not, providing insights into the prevalence of smoking among the student population.
 
 Diabetes Analysis: Investigating the prevalence of diabetes among medical students.
+
 This task involved using a pivot table to find the number of students who have diabetes and those who don't. The "Student ID" column was placed in the "Values" section of the pivot table, and the "Diabetes" column (which likely contains categorical values like "Yes" and "No" to indicate diabetes status) was placed in the "Rows" section of the pivot table field. By doing so, the pivot table automatically aggregated the data, providing the count of students for each diabetes status separately.
 
 Below is the the resulting pivot table:
@@ -76,13 +78,26 @@ This analysis allows us to understand the number of students who have diabetes a
 After carefully analyzing the data from the pivot tables, I created several pivot charts to visualize the information obtained. Below are the pivot charts used for each of the pivot tables:
 #### Average Height and Weight for Both Genders: Clustered Column Pivot Chart
 This chart provides a visual comparison of the average height and weight for both genders. The x-axis represents the genders (Male and Female), and the y-axis represents the average height and weight values. The chart displays clustered columns for each gender, making it easy to compare the average height and weight side by side.
+
+![](AvgHeightch.jpg)
+
 #### Number of Students across Different Blood Groups: Clustered Column Pivot Chart
 This chart presents the distribution of students across different blood groups. The x-axis represents the blood groups (e.g., A, B, AB, O), and the y-axis represents the number of students. The chart displays clustered columns for each blood group, allowing for a quick comparison of the number of students in each group.
+
+![](Bloodgroupsch.jpg) 
+
 #### Number of Students Who Smoke and Those Who Don't: Doughnut Chart
 This chart visualizes the proportion of students who smoke and those who don't. The doughnut chart represents a circle with segments that show the percentage of students who smoke (Yes) and those who don't (No) out of the total student population.
+
+![](Smokersch.jpg) 
+
 #### Number of Students Who Have Diabetes and Those Who Don't: Clustered Bar Chart
 This chart displays the number of students who have diabetes and those who don't. The x-axis represents the diabetes status (Yes or No), and the y-axis represents the number of students. The chart uses clustered bars to compare the count of students with diabetes and without diabetes.
 Using pivot charts helps to present the insights from the pivot tables in a visually appealing and easy-to-understand manner. The visualizations enable quick comparisons, identify patterns, and communicate the findings effectively to stakeholders and decision-makers.
+
+![](Diabetesch.jpg)
+
+## Dashboard
 
 ![](Dashboard.jpg)
 
